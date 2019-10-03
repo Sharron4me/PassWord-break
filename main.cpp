@@ -3,9 +3,10 @@ using namespace std;
 int main(){
     fstream file;
     string word, t, q, filename;
+    // just a comment
     filename="words.txt";
     string pass;
-    cout<<"Please enter the password characters without space \n";
+    cout<<"\nPlease enter the password characters without space \n";
     cin>>pass;
     sort(pass.begin(),pass.end());
     bool yo=true;
